@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/other_features.css') }}">
+    <!-- <link rel="stylesheet" href="css/other_features.css"> -->
+
+   
+
+    
+</head>
+<body>
+   <div class="main_container">
+
+      <h3>
+        Steps to follow for predicting the house price..
+
+      </h3>
+
+      <ol>
+
+        <li>
+          Please select all the amenities you want. As you choose the amenities, they are displayed on the left bottom.        </li>
+
+        <li>
+          If you want to delete an amenities, delete it by pressing the delete button.
+        </li>
+
+        <li>
+          Once all amenities are selected, then click submit button.
+        </li>
+
+        <li>
+
+          Then enter the number of bedrooms you want and click predict, which will predict the price.
+
+        </li>
+
+
+      </ol>
+        <form class = 'form_1' method="POST" >
+
+       
+            
+            <button class="btn btn1" type="submit" name="Gymnasium" value="Gymnasium"> Gymnasium </button>
+            <button class="btn btn2" type="submit" name="Swimming" value="Swimming"> Swimming </button>
+            <button class="btn" type="submit" name="Jogging_track" value="Jogging_track"> Jogging Track</button>
+            <button class="btn" type="submit" name="Indoor_Games" value="Indoor_Games"> Indoor Games</button>
+                    
+
+            <button class="btn" type="submit" name="Club_house" value="Club_house"> Club house</button>
+            
+            
+            <!-- <button class="btn" type="submit" name="Submit" value="Submit"> Submit </button> -->
+                       
+            
+            
+
+
+        </form>
+
+        
+      <form class = 'form_2' method="POST">
+
+            <button class="btn" type="submit" name="Cafeteria" value="Cafeteria"> Cafeteria</button>
+            <button class="btn" type="submit" name="Golf_course" value="Golf_course">Golf course</button>
+            <button class="btn" type="submit" name="Lift" value="Lift">Lift</button>
+            <button class="btn" type="submit" name="Power_backup" value="Power_backup">Power backup</button>
+            <button class="btn" type="submit" name="Car_Parking" value="Car_Parking">Car Parking</button>
+            
+  
+
+      </form>
+
+      <form class = 'form_1' method="POST" >
+
+        <button class="btn" type="submit" name="Submit" value="Submit"> Submit </button>
+
+     </form>
+
+
+      <form class = 'form_1' method="POST" >
+
+        <input class = 'bedrooms_input' type="text" name="bed_rooms" placeholder="No of Bedrooms" />
+        <button class="btn" type="submit" name="Predict" value="predict"> Predict </button>
+
+      </form>
+
+      <div class="output">
+        {{ output }}
+        </div>
+
+      
+
+        
+      
+
+
+      
+
+    </div>
+    
+ <script src = "{{ url_for('static', filename='Javascript/index.js') }}"></script>
+
+
+
+ 
+ {% block content %}
+
+    
+    
+    
+
+ 
+
+ {% endblock %}
+  
+ 
+
+  
+
+  
+
+  
+  
+    
+</body>
+</html>

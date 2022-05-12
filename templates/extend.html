@@ -1,0 +1,30 @@
+{% extends 'other_features.html' %}
+
+
+{% block content %}
+
+    <div class="content"> 
+
+        {% for friend1 in friends %}
+
+            <h4>
+            {{friend1.name}}
+
+
+            <a href="/delete/{{friend1.id}}" class="btn" type="submit" name="Delete" value="Delete" >Delete</a>  
+
+           
+
+            
+            
+
+            
+
+            </h4>
+
+   </div>
+        {% endfor %}
+{%  endblock  %}
+
+
+
