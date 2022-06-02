@@ -5,11 +5,14 @@ Data is collected from the kaggle platfrom
 
 # Requirements :
 
-Pandas
-Numpy
-Seaborn
-Matplotlib
-Tensorflow
+Python ;
+Pandas ;
+Numpy ;
+Seaborn ;
+Matplotlib ;
+Tensorflow  ;
+Flask
+sqlalchemy ;
 
 # Implementation
 
