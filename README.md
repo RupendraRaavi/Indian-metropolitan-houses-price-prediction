@@ -11,7 +11,7 @@ Numpy ;
 Seaborn ;
 Matplotlib ;
 Tensorflow  ;
-Flask
+Flask ;
 sqlalchemy ;
 
 # Implementation
