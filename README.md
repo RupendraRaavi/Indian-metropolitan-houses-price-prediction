@@ -9,6 +9,7 @@ Pandas
 Numpy
 Seaborn
 Matplotlib
+Tensorflow
 
 # Implementation
 
