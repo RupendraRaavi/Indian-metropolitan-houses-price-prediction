@@ -19,14 +19,14 @@ sqlalchemy ;
 ![Architecture](https://user-images.githubusercontent.com/75087581/175669121-98ed22b0-25fa-4e4c-a686-6563e8aaab60.PNG)
 
 # Implementation
-### Step 1 : Create the the Machine Learning model using the notebook provided.
-### Step 2 : Create the the pickle file.
-### Step 3 : Put the pickle file location in the app.py file.
+Step 1 : Create the the Machine Learning model using the notebook provided.
+Step 2 : Create the the pickle file.
+Step 3 : Put the pickle file location in the app.py file.
 
 
 ## Background:
 
-Prediction of house price based on the amenities selected 
+### Prediction of house price based on the amenities selected 
 
 
 
