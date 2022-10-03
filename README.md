@@ -24,6 +24,11 @@ sqlalchemy ;
 ### Step 3 : Put the pickle file location in the app.py file.
 
 
+## Background:
+
+Prediction of house price based on the amenities selected 
+
+
 
 
 ## Click on the video to watch it.
