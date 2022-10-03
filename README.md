@@ -12,6 +12,7 @@ Seaborn ;
 Matplotlib ;
 Tensorflow  ;
 Flask ;
+sckitlearn;
 sqlalchemy ;
 
 # Architecture
